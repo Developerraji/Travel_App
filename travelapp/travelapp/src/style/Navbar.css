@@ -1,0 +1,110 @@
+/* Reset Styles */
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Styling 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #008CBA; /* Travel-inspired Blue 
+    padding: 15px 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Brand (Title) 
+nav h2 {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Navbar Links 
+nav div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* Hover Effect 
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Logout Button 
+nav button {
+    background: #ff5722; /* Red for Logout 
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+nav button:hover {
+    background: #e64a19;
+}
+
+/* Responsive Navbar 
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav div {
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
+}*/
+
+
+
+.navbar {
+    width: 1560px;
+    background: linear-gradient(to right, #cf4421, #bd580b);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+.navbar h2{
+    color:black;
+}
+

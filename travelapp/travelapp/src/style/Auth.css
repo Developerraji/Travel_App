@@ -1,0 +1,60 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    justify-content: center;
+    align-items: center;
+}
+.auth-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 150px;
+    margin-bottom: 130px;
+}
+.auth-container h2 {
+    margin-bottom: 1.5rem;
+    color:#feb47b;
+}
+.auth-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+}
+
+.auth-container input:focus {
+    border-color: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+.auth-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.auth-container button:hover {
+    background:  #feb47b;
+}
+@media (max-width: 400px) {
+    .auth-container {
+        width: 90%;
+        padding: 1.5rem;
+    }
+}

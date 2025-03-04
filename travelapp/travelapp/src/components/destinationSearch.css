@@ -1,0 +1,87 @@
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-top: 200px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    min-height: 500px;
+    text-align: center;
+  }
+  
+  /* Search heading */
+  .sd {
+    margin-top: 100px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Input and Select fields */
+  input, select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Filters container */
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .filters select {
+    flex: 1;
+  }
+  
+  /* Destination list */
+  .destination-list {
+    margin-top: 20px;
+  }
+  
+  /* Destination card */
+  .destination-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    display: block;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Destination text */
+  .destination-card h3 {
+    margin: 0;
+    color: #e67e22;
+    font-size: 20px;
+  }
+  
+  .destination-card p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .filters {
+      flex-direction: column;
+    }
+  }
+  

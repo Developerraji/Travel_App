@@ -1,0 +1,9 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 20px; /* Ensures full height */
+}
+
+.page-container {
+  flex: 1; /* Pushes footer to the bottom */
+}
