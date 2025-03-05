@@ -51,7 +51,6 @@ const Wishlist = () => {
           {wishlist.map((item) => (
             <li key={item.id}>
               {item.name} - {item.price} 
-              {item.image}
               <button className="remove-btn" onClick={() => toggleWishlist(item)}>X</button>
             </li>
           ))}
