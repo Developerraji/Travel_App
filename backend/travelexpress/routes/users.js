@@ -6,7 +6,6 @@ const nodemailer = require('nodemailer');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
-// **🔹 Signup Route**
 router.post('/signup', async (req, res) => {
     try {
         const { username, email, password } = req.body;
@@ -46,7 +45,6 @@ router.post('/signup', async (req, res) => {
     }
 });
 
-// **🔹 Email Verification Route**
 router.get('/verify/:token', async (req, res) => {
     try {
         const { token } = req.params;
@@ -67,7 +65,7 @@ router.get('/verify/:token', async (req, res) => {
     }
 });
 
-// **🔹 Login Route**
+
 router.post('/login', async (req, res) => {
     try {
         const { email, password } = req.body;
